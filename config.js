@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("M.R Dagayya,")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://kingvajira:kingvajira@cluster0.6eu4geo.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'botwhatsapp204@gmail.com'
