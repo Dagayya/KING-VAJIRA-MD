@@ -1,5 +1,5 @@
 { 
-  "name": "KING-VAJIRA-MD",
+  "name": "M.R Dagayya",
   "description": "A Whatsapp md bot built By Naveed to make experience better",
   "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "King-Two", "KING-MD", "KING","king-Bot","theme bot","multi device","baileys"],
@@ -7,16 +7,16 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-  "description": "OWNER NAME",
+  "description": "M.R Dagayya",
       "value": "VAJIRA RATHNAYAKA"
     },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
      "required" :false
     },
-  "AUTO_READ_STATUS": {
+  "AUTO_READ_STATUS": {true
     "description": "Fill the value true if you want bot view your Statuses./ ඔටො ඉස්ටෙටස් සීන් කරන්න ඔනිනම් true/false දමන්න",
-    "required" :false,
+    "required" :true,
     "value": "false"
       },
     "HEROKU_API_KEY": {
@@ -24,7 +24,7 @@
      "required" :true
     },
   "HEROKU_APP_NAME": {
-    "description": "Put HEROKU APP NAME same as above./ මුලින්ම දැමු නම නැවත්තත් මෙතනට දමන්න(App name)",
+    "description": "Put HEROKU APP NAME same as above./ මුලින්ම දැමු නම නැවත්තත් මෙතනට දමන්න(M.R Dagayya)",
      "required" :true
     },
    "THUMB_IMAGE": {
